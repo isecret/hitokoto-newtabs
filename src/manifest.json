@@ -1,0 +1,23 @@
+{
+    "name": "一言 - Hitokoto",
+    "manifest_version":2,
+    "version": "1.0.0",
+    "homepage_url": "https://blog.wangmao.me",
+    "description": "动漫也好、小说也好、网络也好，不论在哪里，我们总会看到有那么一两个句子能穿透你的心。我们把这些句子汇聚起来，形成一言网络，以传递更多的感动。",
+    "icons": {
+        "16": "img/favicon.png",
+        "48": "img/favicon.png",
+        "128": "img/favicon.png"
+    },
+    "browser_action": {
+        "default_icon": "img/favicon.png" ,
+        "default_title": "一言"
+    },
+    "chrome_url_overrides":
+    {
+        "newtab": "newtab.html"
+    },
+    "permissions": [
+        "*://*.hitokoto.cn/*"
+    ]
+}

@@ -1,0 +1,67 @@
+body {
+    color: #555;
+    margin: 0;
+    padding: 0;
+    font: 16px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.container {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    color: #636b6f;
+}
+.main {
+    text-align: center;
+    max-width: 768px;
+}
+.hitokoto {
+    font: 200 32px/2.3rem "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.hitokoto:before {
+    content: "\300e";
+    margin-right: 3px;
+}
+.hitokoto:after {
+    content: "\300f";
+    margin-left: 3px;
+}
+.from {
+    font: 200 20px/1rem "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: right;
+    margin-top: 1rem;
+}
+.btns {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.btns i {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 32px;
+    margin: .8em;
+}
+.icon-like {
+    color: rgb(253, 102, 99);
+}
+
+.anim-rotate {
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate{
+    from{
+        transform:rotate(0)
+    }
+    to{
+        transform:rotate(360deg)
+    }
+}
