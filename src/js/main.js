@@ -4,7 +4,7 @@ $(function() {
     // 获取一言
     function hitokoto() {
         try {
-            fetch("https://v1.hitokoto.cn/?encode=json", {
+            fetch("https://v1.hitokoto.cn/?encode=json&_=" + Math.random(), {
                     headers:{
                          'content-type':'application/json'
                     }
