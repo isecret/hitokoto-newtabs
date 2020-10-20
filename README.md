@@ -2,7 +2,7 @@
 
 Chrome 新标签页，基于一言 _Hitokoto.cn_，简洁的黑白设计，基于 _animate.css_ 的过渡动画。
 
-![](https://static.openapi.link/img/WX20180810-130405.png)
+![](https://raw.githubusercontent.com/isecret/img/master/C1EE22986D70A92A8959BBDDF2B1FC02.png)
 
 ## 功能
 
